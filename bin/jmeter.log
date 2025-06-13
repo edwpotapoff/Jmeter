@@ -1,224 +1,55 @@
-2025-06-09 18:23:00,896 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-06-09 18:23:00,911 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2025-06-09 18:23:00,912 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: Version 5.6.3
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: java.version=17.0.12
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: os.name=Windows 10
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: os.arch=amd64
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: os.version=10.0
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: file.encoding=Cp1251
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: java.awt.headless=null
-2025-06-09 18:23:00,918 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-06-09 18:23:00,919 INFO o.a.j.JMeter: Available Processors =20
-2025-06-09 18:23:00,926 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-06-09 18:23:00,927 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-06-09 18:23:00,927 INFO o.a.j.JMeter: JMeterHome=C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3
-2025-06-09 18:23:00,927 INFO o.a.j.JMeter: user.dir  =C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\bin
-2025-06-09 18:23:00,927 INFO o.a.j.JMeter: PWD       =C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\bin
-2025-06-09 18:23:00,938 INFO o.a.j.JMeter: IP: 192.168.0.19 Name: DESKTOP-LDG5M0D FullName: 192.168.0.19
-2025-06-09 18:23:00,949 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2025-06-09 18:23:01,100 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2025-06-09 18:23:01,917 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:01,922 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,028 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-bzm-http2-2.0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,041 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,090 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,132 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,135 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,139 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-bzm-http2-2.0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,139 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,141 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-06-09 18:23:02,307 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-692c1a4b7e85fc1a50a9e9584199060e-gui
-2025-06-09 18:23:03,855 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-06-09 18:23:03,859 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-06-09 18:23:03,859 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-06-09 18:23:03,878 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-06-09 18:23:04,154 INFO o.j.r.PluginManager: Plugins Status: [bzm-http2-legacy=2.0.6, bzm-http2=2.0.6, jpgc-casutg=3.1.1, jpgc-plugins-manager=1.10, jpgc-tst=2.6, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
-2025-06-09 18:23:04,155 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
-2025-06-09 18:26:29,712 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
-java.lang.IllegalArgumentException: Version 2.0.6 not found for plugin bzm-http2-legacy
-	at org.jmeterplugins.repository.Plugin.getDownloadUrl(Plugin.java:286) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.getMavenInfo(PluginsList.java:227) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.getDescriptionHTML(PluginsList.java:204) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.valueChanged(PluginsList.java:146) ~[jmeter-plugins-manager-1.10.jar:?]
-	at java.desktop/javax.swing.JList.fireSelectionValueChanged(JList.java:1831) ~[?:?]
-	at java.desktop/javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1845) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:224) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:191) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:728) ~[?:?]
-	at java.desktop/javax.swing.JList.setValueIsAdjusting(JList.java:2179) ~[?:?]
-	at com.github.weisj.darklaf.ui.list.DarkListUIBridge$Handler.mouseReleased(DarkListUIBridge.java:2576) ~[darklaf-core-2.7.3.jar:2.7.3]
-	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298) ~[?:?]
-	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297) ~[?:?]
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
-	at java.desktop/java.awt.Component.processEvent(Component.java:6391) ~[?:?]
-	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) [?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746) [?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744) [?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234) ~[?:?]
-	at java.desktop/java.awt.Dialog.show(Dialog.java:1080) ~[?:?]
-	at java.desktop/java.awt.Component.show(Component.java:1728) ~[?:?]
-	at java.desktop/java.awt.Component.setVisible(Component.java:1675) ~[?:?]
-	at java.desktop/java.awt.Window.setVisible(Window.java:1036) ~[?:?]
-	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016) ~[?:?]
-	at org.jmeterplugins.repository.PluginManagerMenuItem.actionPerformed(PluginManagerMenuItem.java:105) ~[jmeter-plugins-manager-1.10.jar:?]
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
-	at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:374) ~[?:?]
-	at com.github.weisj.darklaf.ui.menu.DarkMenuItemUIBase.doClick(DarkMenuItemUIBase.java:155) ~[darklaf-core-2.7.3.jar:2.7.3]
-	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1072) ~[?:?]
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
-	at java.desktop/java.awt.Component.processEvent(Component.java:6391) ~[?:?]
-	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
-2025-06-09 18:28:21,604 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
-java.lang.IllegalArgumentException: Version 2.0.6 not found for plugin bzm-http2-legacy
-	at org.jmeterplugins.repository.Plugin.getDownloadUrl(Plugin.java:286) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.getMavenInfo(PluginsList.java:227) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.getDescriptionHTML(PluginsList.java:204) ~[jmeter-plugins-manager-1.10.jar:?]
-	at org.jmeterplugins.repository.PluginsList.valueChanged(PluginsList.java:146) ~[jmeter-plugins-manager-1.10.jar:?]
-	at java.desktop/javax.swing.JList.fireSelectionValueChanged(JList.java:1831) ~[?:?]
-	at java.desktop/javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1845) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:224) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:191) ~[?:?]
-	at java.desktop/javax.swing.DefaultListSelectionModel.setValueIsAdjusting(DefaultListSelectionModel.java:728) ~[?:?]
-	at java.desktop/javax.swing.JList.setValueIsAdjusting(JList.java:2179) ~[?:?]
-	at com.github.weisj.darklaf.ui.list.DarkListUIBridge$Handler.mouseReleased(DarkListUIBridge.java:2576) ~[darklaf-core-2.7.3.jar:2.7.3]
-	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298) ~[?:?]
-	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297) ~[?:?]
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
-	at java.desktop/java.awt.Component.processEvent(Component.java:6391) ~[?:?]
-	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) [?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746) [?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744) [?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
-	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234) ~[?:?]
-	at java.desktop/java.awt.Dialog.show(Dialog.java:1080) ~[?:?]
-	at java.desktop/java.awt.Component.show(Component.java:1728) ~[?:?]
-	at java.desktop/java.awt.Component.setVisible(Component.java:1675) ~[?:?]
-	at java.desktop/java.awt.Window.setVisible(Window.java:1036) ~[?:?]
-	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016) ~[?:?]
-	at org.jmeterplugins.repository.PluginManagerMenuItem.actionPerformed(PluginManagerMenuItem.java:105) ~[jmeter-plugins-manager-1.10.jar:?]
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
-	at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:374) ~[?:?]
-	at com.github.weisj.darklaf.ui.menu.DarkMenuItemUIBase.doClick(DarkMenuItemUIBase.java:155) ~[darklaf-core-2.7.3.jar:2.7.3]
-	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1072) ~[?:?]
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
-	at java.desktop/java.awt.Component.processEvent(Component.java:6391) ~[?:?]
-	at java.desktop/java.awt.Container.processEvent(Container.java:2266) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2025-06-13 18:05:13,295 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-06-13 18:05:13,308 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2025-06-13 18:05:13,308 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2025-06-13 18:05:13,313 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-06-13 18:05:13,313 INFO o.a.j.JMeter: Version 5.6.3
+2025-06-13 18:05:13,313 INFO o.a.j.JMeter: java.version=17.0.12
+2025-06-13 18:05:13,313 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: os.name=Windows 10
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: os.arch=amd64
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: os.version=10.0
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: file.encoding=Cp1251
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: java.awt.headless=null
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-06-13 18:05:13,314 INFO o.a.j.JMeter: Available Processors =20
+2025-06-13 18:05:13,321 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-06-13 18:05:13,321 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-06-13 18:05:13,321 INFO o.a.j.JMeter: JMeterHome=C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3
+2025-06-13 18:05:13,321 INFO o.a.j.JMeter: user.dir  =C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\bin
+2025-06-13 18:05:13,322 INFO o.a.j.JMeter: PWD       =C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\bin
+2025-06-13 18:05:13,376 INFO o.a.j.JMeter: IP: 192.168.0.19 Name: DESKTOP-LDG5M0D FullName: 192.168.0.19
+2025-06-13 18:05:13,383 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-06-13 18:05:13,488 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-06-13 18:05:14,099 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,102 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,203 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\di-kafkameter-1.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,206 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,209 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-bzm-http2-2.0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,222 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter.backendlistener.kafka-1.0.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,492 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,552 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\kafkameter-0.2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,553 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,554 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,596 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,597 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\JMeter-InfluxDB-Writer-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,599 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\di-kafkameter-1.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,599 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,599 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-bzm-http2-2.0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,600 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter.backendlistener.kafka-1.0.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,607 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,608 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\kafkameter-0.2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,609 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,610 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-06-13 18:05:14,640 WARN o.j.r.PluginManager: Found JAR conflict: C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar and C:\Users\pcpcc\Desktop\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar
+2025-06-13 18:05:14,751 INFO o.j.r.JARSourceHTTP: Found cached repo
+2025-06-13 18:05:14,864 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, bzm-http2-legacy=2.0.6, bzm-http2=2.0.6, jpgc-casutg=3.1.1, di-kafkameter=1.3, kafkameter=0.2.0, jmeter.backendlistener.kafka=1.0.0, jpgc-plugins-manager=1.10, jpgc-tst=2.6, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2025-06-13 18:05:14,865 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2025-06-13 18:05:16,271 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-06-13 18:05:16,273 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-06-13 18:05:16,274 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-06-13 18:05:16,291 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
